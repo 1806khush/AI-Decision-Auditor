@@ -32,7 +32,7 @@ ai-decision-auditor/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/ai-decision-auditor.git
+git clone https://github.com/1806khush/ai-decision-auditor.git
 cd ai-decision-auditor
 pip install -r requirements.txt
 ```
