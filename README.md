@@ -1,4 +1,4 @@
-# ⚖️ AI Decision Auditor
+AI Decision Auditor
 
 > LLM-powered compliance & bias auditor for consumer lending decisions — compares Few-Shot vs RAG+CoT prompting strategies with precision/recall evaluation, ChromaDB retrieval, and an interactive Streamlit dashboard.
 
@@ -175,7 +175,7 @@ Opens the interactive Streamlit dashboard at `http://localhost:8501`.
 
 ## Dataset
 
-35 synthetic loan decision records, each with 31 features including:
+35 synthetic loan decision records, each with 31 features, including:
 
 - **Applicant profile:** age, gender, race, credit score, income, DTI ratio
 - **Loan details:** amount, type (secured/unsecured), collateral, co-signer, term, rate offered
@@ -183,16 +183,5 @@ Opens the interactive Streamlit dashboard at `http://localhost:8501`.
 - **Ground truth labels:** compliance verdict, violated clauses, bias present, bias description
 
 Approximately 51% of decisions contain policy violations or bias flags, reflecting realistic audit conditions.
-
----
-
-## Authors
-
-| Name | Contributions |
-|---|---|
-| **Aania Adap** | Dataset generation, lending policy, RAG pipeline (ChromaDB), prompt engineering, auditor pipeline, evaluation metrics |
-| **Khush Mehta** | Streamlit application (Audit, Dashboard, Explorer pages), UI/UX, write-up, presentation |
-
----
 
 *FE524 · Prompt Engineering Lab · Stevens Institute of Technology · Spring 2026*
