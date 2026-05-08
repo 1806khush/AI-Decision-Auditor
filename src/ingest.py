@@ -1,6 +1,3 @@
-# ingest.py - loads the policy doc into ChromaDB for retrieval
-# run this once before using auditor.py
-
 import os
 from dotenv import load_dotenv
 from langchain_community.document_loaders import TextLoader

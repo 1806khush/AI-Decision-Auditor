@@ -1,8 +1,3 @@
-# auditor.py - runs compliance audits using two prompting strategies
-# usage: python src/auditor.py --strategy few_shot
-#        python src/auditor.py --strategy rag_cot
-#        python src/auditor.py --strategy both
-
 import os, csv, json, argparse
 from dotenv import load_dotenv
 from openai import OpenAI

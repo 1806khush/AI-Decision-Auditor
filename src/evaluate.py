@@ -1,6 +1,3 @@
-# evaluate.py - compares auditor output against ground truth labels
-# generates confusion matrices and a comparison table
-
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
