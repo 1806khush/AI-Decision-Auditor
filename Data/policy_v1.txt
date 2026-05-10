@@ -1,0 +1,86 @@
+FAIR LENDING POLICY — SYNTHETIC DOCUMENT v1
+============================================
+Institution: Horizon Home Loans (Synthetic)
+Version: 1.0  |  Date: April 2026
+
+SECTION 1: PURPOSE
+------------------
+This policy governs the criteria by which loan applications are evaluated,
+approved, or denied. All decisions must adhere to federal Fair Housing Act
+and Equal Credit Opportunity Act (ECOA) requirements.
+
+SECTION 2: ELIGIBILITY CRITERIA
+---------------------------------
+
+[P-01] CREDIT SCORE
+  - Minimum required credit score: 620 (FICO).
+  - Scores below 580 are automatically ineligible.
+  - Scores 580–619 may be considered with documented compensating factors.
+
+[P-02] DEBT-TO-INCOME RATIO (DTI)
+  - Maximum allowable DTI: 43%.
+  - Calculated as: (total monthly debt payments) / (gross monthly income).
+  - DTI above 50% is automatically disqualifying with no exceptions.
+
+[P-03] MINIMUM INCOME
+  - Applicant must demonstrate annual income of at least $30,000 USD.
+  - Income must be verified via W-2, tax returns, or recent pay stubs.
+  - Self-employment income requires 2 years of filed tax returns.
+
+[P-04] ANTI-DISCRIMINATION CLAUSE
+  - Loan decisions MUST NOT be based on race, color, national origin, sex,
+    religion, disability, familial status, or age (Fair Housing Act / ECOA).
+  - Any officer notes referencing protected class characteristics constitute
+    a material policy violation subject to regulatory escalation.
+
+[P-05] EMPLOYMENT STABILITY
+  - Applicant must have a minimum of 12 consecutive months with current employer.
+  - Job changes within the same field may be considered with documented rationale.
+  - Self-employed applicants must provide 2 years of tax returns.
+
+[P-06] BANKRUPTCY HISTORY
+  - Applicants with a Chapter 7 or Chapter 13 bankruptcy within the past 7 years
+    are ineligible.
+  - Official documentation of discharge is required.
+  - Applicants must demonstrate re-established credit following bankruptcy.
+
+[P-07] DENIAL NOTICE REQUIREMENTS
+  - Any denial must be accompanied by a written Adverse Action Notice citing:
+      (a) The specific policy clause(s) violated.
+      (b) Steps the applicant may take to become eligible in the future.
+  - Verbal-only denials are a procedural violation regardless of financial grounds.
+
+[P-08] DOCUMENTATION COMPLETENESS
+  - Officers must formally request all missing documentation before issuing a denial.
+  - Denial issued due to incomplete documentation without a prior request is a
+    procedural violation and grounds for mandatory re-evaluation.
+
+SECTION 3: COMPENSATING FACTORS
+---------------------------------
+Applicants who fail a single criterion (P-01, P-02, or P-03) may still be
+approved if they demonstrate two or more of the following:
+  - Substantial liquid reserves (6+ months of mortgage payments in savings)
+  - Low loan-to-value ratio (less than 70%)
+  - Co-signer with a credit score above 720 and stable income
+  - Long-term banking relationship (5+ years with the institution)
+  - Consistent on-time payment history over the last 24 months
+
+SECTION 4: PROTECTED CLASSES REFERENCE
+----------------------------------------
+The following characteristics are federally protected under the Fair Housing
+Act and ECOA and must NEVER influence a loan decision:
+  - Race or color
+  - National origin or ethnicity
+  - Sex or gender identity
+  - Religion
+  - Disability status
+  - Familial status (presence of children under 18)
+  - Age (for applicants above the age of majority)
+  - Receipt of public assistance income
+
+SECTION 5: AUDIT & COMPLIANCE
+-------------------------------
+  - All loan decisions are subject to automated compliance auditing.
+  - Officers must document their reasoning in the loan management system.
+  - Any decision flagged for potential bias is escalated to the Compliance Review Board.
+  - Records are retained for a minimum of 5 years per federal recordkeeping requirements.
