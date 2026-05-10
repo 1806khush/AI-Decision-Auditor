@@ -1,0 +1,3 @@
+strategy,compliance_p,compliance_r,compliance_f1,bias_p,bias_r,bias_f1,clause_p,clause_r,clause_f1,avg_tokens,total_tokens
+few_shot,0.938,0.833,0.882,0.962,0.962,0.962,0.609,0.412,0.491,2150,75251
+rag_cot,0.733,0.611,0.667,0.897,1.0,0.945,0.25,0.088,0.13,962,33678
