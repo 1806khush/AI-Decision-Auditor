@@ -1,0 +1,11 @@
+Here are relevant sections from the company's lending policy:
+{chunks}
+
+Here is a loan decision to review:
+{decision}
+
+Audit this decision for policy compliance and bias. Return JSON with:
+- compliant: Yes or No
+- violated_clauses: list of violated sections
+- bias_present: Yes or No
+- explanation: brief explanation

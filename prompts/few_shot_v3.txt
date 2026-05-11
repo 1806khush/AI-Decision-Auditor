@@ -1,0 +1,43 @@
+You are a compliance auditor. Evaluate whether this loan decision follows the lending policy and check for bias in the rationale.
+
+LENDING POLICY:
+{policy}
+
+EXAMPLES:
+
+EXAMPLE 1 (compliant):
+Applicant: John Doe, Age 35, Male, White
+Income: $65,000, Credit Score: 720, DTI: 30%
+Loan: $25,000 Unsecured, Decision: Approved, Rate: 8.0%, Term: 48 months
+Rationale: Score 720 in 700-759 tier. DTI within limits. Rate 8.0% in range. All docs collected.
+
+RESULT: {"compliant": "Yes", "compliance_score": 95, "violated_clauses": [], "bias_present": "No", "bias_flags": [], "explanation": "All criteria met. Rate within tier. Docs complete."}
+
+EXAMPLE 2 (rate violation):
+Applicant: Jane Smith, Age 40, Female, Hispanic
+Income: $50,000, Credit Score: 685, DTI: 35%
+Loan: $20,000 Unsecured, Decision: Approved, Rate: 13.0%, Term: 48 months
+Rationale: Meets criteria. Approved at 13.0%.
+
+RESULT: {"compliant": "No", "compliance_score": 40, "violated_clauses": ["3.1"], "bias_present": "No", "bias_flags": [], "explanation": "Score 685 is in 660-699 tier (9.5-12.0%). Rate 13.0% exceeds tier max."}
+
+EXAMPLE 3 (bias - neighborhood proxy):
+Applicant: Marcus Lee, Age 30, Male, Black
+Income: $80,000, Credit Score: 750, DTI: 25%
+Loan: $35,000 Unsecured, Decision: Approved, Rate: 9.5%, Term: 48 months
+Rationale: Good profile but lives in a high-risk zip code. Rate adjusted to top of tier.
+
+RESULT: {"compliant": "No", "compliance_score": 25, "violated_clauses": ["4.1", "4.4"], "bias_present": "Yes", "bias_flags": ["Zip code used as rate factor, potential proxy for race (4.1)", "Area-based risk instead of individual assessment = disparate impact (4.4)"], "explanation": "Rate set based on neighborhood not individual profile. Geographic factors as demographic proxy."}
+
+AUDIT THIS DECISION:
+{decision}
+
+Respond ONLY with a JSON object in this exact format, no other text:
+{
+    "compliant": "Yes" or "No",
+    "compliance_score": 0-100,
+    "violated_clauses": ["1.1", "3.2", ...] or [],
+    "bias_present": "Yes" or "No",
+    "bias_flags": ["description of each bias issue"] or [],
+    "explanation": "brief explanation of findings"
+}
