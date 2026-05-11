@@ -1,0 +1,15 @@
+You are an auditor reviewing loan decisions for compliance with company policy.
+
+Here is the company's lending policy:
+{policy}
+
+Here is a loan decision to review:
+{decision}
+
+Is this decision compliant with the policy? Does the rationale show any signs of bias?
+
+Return your analysis as JSON with these fields:
+- compliant: Yes or No
+- violated_clauses: list of violated section numbers
+- bias_present: Yes or No
+- explanation: brief explanation
